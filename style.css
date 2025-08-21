@@ -1,0 +1,167 @@
+body{
+ min-height: 100vh;
+    background: linear-gradient(135deg, #fdfdfd 10%, #ffefda 50%, #f9cf87 100%);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.navbar, .bg-body-tertiary {
+    background: linear-gradient(90deg, #fdfdfd 0%, #ffefda 50%, #f9cf87 100%) !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-radius: 16px;
+}
+.nav-link {
+    transition: background 0.2s, color 0.2s;
+    margin: 0 6px;
+}
+.nav-link.active, .nav-link:hover {
+    background: #fafafa !important;
+    color: #3c0b9d !important;
+    border-radius: 6px;
+}
+.name-link {
+    padding: 30px;
+    color: #000000 !important;
+    
+}
+.name-link:hover{
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.skills-link{
+    padding: 8px 50px!important;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.education-link {
+    padding: 8px 50px !important;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    text-decoration: rgb(2, 49, 33);
+    font-weight: bold;
+    font-size: large;
+}
+
+.about-link {
+    padding: 8px 50px!important;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    text-decoration: rgb(2, 49, 33);
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact-link {
+    padding: 8px 50px!important;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    text-decoration: rgb(2, 49, 33);
+    font-weight: bold;
+    font-size: larger;
+}
+.name-link,
+.skills-link,
+.education-link,
+.about-link,
+.contact-link {
+    font-weight: bold !important;
+    font-size: 1.9rem !important;
+    font-family: serif, Helvetica, sans-serif !important;
+}
+
+#about-section {
+    display: none;
+    margin: 50px;
+    padding: 40px 50px ;
+   
+  
+    max-width: 900px ;
+    margin: 40px auto;
+    color: #333;
+    text-align: center;
+}
+#about-section h2 {
+    color:#c80909;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+#about-section p {
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+}
+#name-section {
+    padding: 40px 50px;
+    text-align: left;
+    border-radius: 20px;
+    max-width: 40px auto;
+    margin: 100px 100px;
+    padding: 40px 40px 30px 40px;
+    
+}
+#name-section h1 {
+   font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#name-section p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+}
+#name-section h3 {
+    font-family: serif, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(0, 106, 255)
+    
+}
+#name-section h4{
+    font-family: serif, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.name-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    
+}
+.profile-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 70%;
+    margin-left: 50px;
+    margin-top: -100px;
+    border: #000000 2px solid;
+}
+
+
+.social-links h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    size-adjust: 2.5rem!important;
+}
