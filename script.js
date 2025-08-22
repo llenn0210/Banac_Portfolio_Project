@@ -2,8 +2,8 @@ function hideAllSections() {
     document.getElementById('about-section').style.display = 'none';
     document.getElementById('name-section').style.display = 'none';
     document.getElementById('contact-section').style.display = 'none';
-    
     document.getElementById('skills-section').style.display = 'none';
+    document.getElementById('education-section').style.display = 'none';
     
 }
 hideAllSections();

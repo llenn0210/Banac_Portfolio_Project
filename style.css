@@ -224,3 +224,123 @@ textarea {
     padding: 10px;
 }
 
+.education-logo {
+    align-items: center;
+    margin-left: 20%;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.education-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.education-logo {
+    width: 12%;
+    height: 12%;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+.education-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-details h4 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: #c80909;
+}
+
+.education-details p {
+    margin: 0 0 6px 0;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.education-section > h1 {
+    display:block;
+    margin: 0 40% auto;
+    text-align: center !important;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+#skills-section {
+    display: none;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+}
+
+#skills-section h2 {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.skill-card {
+    background: #ffe4b5;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 24px 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3c0b9d;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.skill-card i {
+    font-size: 2rem;
+    color: #1c0a90;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    background: #ffefda;
+}
+
+@media (max-width: 600px) {
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+.skill-card {
+        width: 100%;
+        justify-content: center;
+    }
+}
